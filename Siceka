@@ -1,0 +1,6 @@
+git clone https://github.com/YOURUSERNAME/siceka-site.git
+cd siceka-site
+# copy index.html, styles.css, images/ into this folder
+git add .
+git commit -m "Initial Siceka company site"
+git push
