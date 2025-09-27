@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Company</title>
+  <title>Siceka Company</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", Arial, sans-serif;
       margin: 0;
       padding: 0;
       line-height: 1.6;
@@ -14,75 +14,93 @@
       color: #333;
     }
     header {
-      background: linear-gradient(135deg, #008080, #00b3b3);
+      background: linear-gradient(135deg, #007c91, #00b3b3);
       color: white;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      opacity: 0.9;
     }
     nav {
       display: flex;
       justify-content: center;
-      background: #006666;
+      background: #005f6b;
     }
     nav a {
       color: white;
       padding: 14px 20px;
       text-decoration: none;
       display: block;
+      font-weight: bold;
     }
     nav a:hover {
-      background: #004c4c;
+      background: #00464f;
     }
     section {
-      padding: 40px 20px;
-      max-width: 1000px;
+      padding: 50px 20px;
+      max-width: 1100px;
       margin: auto;
     }
     h2 {
-      color: #008080;
+      color: #007c91;
+      margin-bottom: 20px;
     }
     .services {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
     }
     .card {
       background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #00a0a0;
     }
     footer {
-      background: #006666;
+      background: #005f6b;
       color: white;
       text-align: center;
-      padding: 15px;
-      margin-top: 20px;
+      padding: 20px;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>My Company</h1>
-    <p>Innovating for a Better Future</p>
+    <h1>Siceka Company</h1>
+    <p>Empowering Communities Through Innovation and Excellence</p>
   </header>
   
   <nav>
     <a href="#about">About</a>
     <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
   
   <section id="about">
     <h2>About Us</h2>
     <p>
-      Welcome to My Company! We are dedicated to providing high-quality services and products
-      that help businesses and communities thrive. Our mission is to deliver excellence
-      with integrity and innovation.
+      Siceka Company is committed to driving growth and sustainability by delivering 
+      innovative solutions across industries. With a strong focus on community development 
+      and client satisfaction, we provide tailored services that empower businesses, 
+      organizations, and individuals to thrive in today’s fast-changing environment.
     </p>
   </section>
   
@@ -90,29 +108,38 @@
     <h2>Our Services</h2>
     <div class="services">
       <div class="card">
-        <h3>Service One</h3>
-        <p>High-quality solutions tailored to your needs.</p>
+        <h3>Consulting & Strategy</h3>
+        <p>Providing expert guidance to help organizations grow sustainably and achieve their long-term goals.</p>
       </div>
       <div class="card">
-        <h3>Service Two</h3>
-        <p>Reliable and innovative services for modern challenges.</p>
+        <h3>Training & Capacity Building</h3>
+        <p>Empowering individuals and communities with the skills and knowledge to succeed.</p>
       </div>
       <div class="card">
-        <h3>Service Three</h3>
-        <p>Customer-focused approach ensuring your success.</p>
+        <h3>Project Management</h3>
+        <p>Efficient planning, execution, and monitoring of projects to deliver impactful results.</p>
       </div>
     </div>
+  </section>
+
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <p>
+      At Siceka Company, we have been involved in transformative projects that 
+      connect innovation with real-world impact. From community initiatives to 
+      corporate partnerships, our projects are designed to leave a lasting legacy.
+    </p>
   </section>
   
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>Email: info@mycompany.com</p>
-    <p>Phone: +123 456 7890</p>
-    <p>Location: 123 Business Street, City, Country</p>
+    <p>Email: info@sicekacompany.com</p>
+    <p>Phone: +27 123 456 789</p>
+    <p>Location: Johannesburg, South Africa</p>
   </section>
   
   <footer>
-    <p>&copy; 2025 My Company. All rights reserved.</p>
+    <p>&copy; 2025 Siceka Company. All rights reserved.</p>
   </footer>
 </body>
 </html>
